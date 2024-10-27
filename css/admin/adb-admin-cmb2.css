@@ -1,0 +1,73 @@
+
+.cmb2-postbox .cmb-type-group .cmb2-wrap>.cmb-field-list>.cmb-row, .postbox.cmb2-postbox .cmb2-wrap>.cmb-field-list>.cmb-row {
+    padding: 0.7em 0;
+}
+
+.cmb2-postbox .cmb-type-group .cmb-remove-field-row, .cmb2-postbox .cmb-type-group .cmb-repeat-group-field, .cmb2-postbox .cmb2-postbox .cmb-remove-field-row, .cmb2-postbox .cmb2-postbox .cmb-repeat-group-field {
+    padding: 0.7em 0;
+}
+
+.cmb-type-group .cmb-row, .cmb2-postbox .cmb-row {
+    padding: 0 0 0.5em 0;
+}
+
+/***************/
+
+#side-sortables .cmb-row .inside{
+    margin: 0;
+}
+
+#side-sortables .cmb2-postbox .cmb-type-group .cmb-remove-field-row, #side-sortables .cmb2-postbox .cmb-type-group .cmb-repeat-group-field, #side-sortables .cmb2-postbox .cmb2-postbox .cmb-remove-field-row, #side-sortables .cmb2-postbox .cmb2-postbox .cmb-repeat-group-field {
+    padding: 0;
+}
+
+#side-sortables .cmb2-postbox .cmb-type-group .cmb2-wrap>.cmb-field-list>.cmb-row, #side-sortables .postbox.cmb2-postbox .cmb2-wrap>.cmb-field-list>.cmb-row {
+    padding: 0;
+}
+
+#side-sortables .inside .cmb-th, .inner-sidebar .inside .cmb-th {
+    padding-bottom: 0;
+}
+
+#side-sortables .inside .cmb-th label, .inner-sidebar .inside .cmb-th label {
+    padding-top: 5px;
+    margin-bottom: 0;
+}
+
+#side-sortables .cmb2-wrap .inside input+input:not(.wp-picker-clear), #side-sortables .cmb2-wrap .inside input+select, .inner-sidebar .cmb2-wrap .inside input+input:not(.wp-picker-clear), .inner-sidebar .cmb2-wrap .inside input+select {
+    margin-top: 5px;
+}
+
+#side-sortables .inside .cmb-row .cmb2-metabox-description, .inner-sidebar .inside .cmb-row .cmb2-metabox-description {
+    padding-bottom: 13px;
+}
+
+#side-sortables .inside .cmb-remove-row, .inner-sidebar .inside .cmb-remove-row {
+    clear: both;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#side-sortables .inside textarea, .inner-sidebar .inside textarea {
+    height: 55px;
+}
+
+/*********cmb2-before-row-header***/
+
+.cmb2-before-row-header{
+    font-weight: 500;
+    font-size: 17px;
+    color: #fff;
+    padding: 7px;
+    background-color: chocolate;
+}
+
+.cmb2-row-hidden{
+    display: none;
+}
+
+.postbox.cmb2-postbox .cmb2-wrap>.cmb-field-list>.cmb-row.cmb-type-row-header{
+    padding: 0;
+    border: none;
+    margin-bottom: 0;
+}

@@ -1,0 +1,30 @@
+
+/*=========Settings tabs===========*/
+
+.adb-settings-wrap .nav-tab:focus{
+    box-shadow: none;
+}
+
+.adb-settings-wrap .nav-tab.nav-tab-active{
+    background-color: #fff;
+}
+
+.adb-settings-wrap .tab-target{
+    display: none;
+}
+
+.adb-settings-wrap .tab-target.tab-target-active{
+    display: block;
+}
+
+/******************************/
+
+textarea{
+    width: 80%;
+    min-width: 300px;
+}
+
+._img_field_preview{
+    max-width: 100px;
+    max-height: 100px;
+}
